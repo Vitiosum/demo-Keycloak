@@ -72,7 +72,7 @@
 <body>
   <div class="container">
     <div class="card">
-      <h1>🚀 Clever Cloud Keycloak Demo</h1>
+      <h1>🚀 Clever Cloud Keycloak Demo V3</h1>
       <p class="muted">Simple static demo using Keycloak on Clever Cloud.</p>
 
       <button type="button" onclick="doLogin()">Login</button>
@@ -95,7 +95,10 @@
     </div>
   </div>
 
-<script src="https://unpkg.com/keycloak-js@22.0.5/dist/keycloak.js"></script>
-<script src="./app.js"></script>
+  <script>
+    console.log('INLINE SCRIPT LOADED');
+  </script>
+  <script src="https://unpkg.com/keycloak-js@22.0.5/dist/keycloak.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
